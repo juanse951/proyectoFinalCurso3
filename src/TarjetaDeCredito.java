@@ -11,4 +11,16 @@ public class TarjetaDeCredito {
         this.saldo = limite;
         this.listaDeCompras = new ArrayList<>();
     }
+
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public void setListaDeCompras(List<Compra> listaDeCompras) {
+        this.listaDeCompras = listaDeCompras;
+    }
 }
