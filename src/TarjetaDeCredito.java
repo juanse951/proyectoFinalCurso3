@@ -32,4 +32,12 @@ public class TarjetaDeCredito {
     public void setListaDeCompras(List<Compra> listaDeCompras) {
         this.listaDeCompras = listaDeCompras;
     }
+
+    public List<Compra> getListaDeCompras() {
+        return listaDeCompras;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
 }
